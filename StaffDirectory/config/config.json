@@ -1,0 +1,20 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "staffdirectory-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/staffdirectory/StaffdirectoryWebPart.js",
+          "manifest": "./src/webparts/staffdirectory/StaffdirectoryWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {
+
+  },
+  "localizedResources": {
+    "StaffdirectoryWebPartStrings": "lib/webparts/staffdirectory/loc/{locale}.js"
+  }
+}
